@@ -30,6 +30,7 @@ function UserTable() {
           <th>Matric details</th>
           <th>Inter details</th>
           <th>Bachlores details</th>
+          <th>visaPurpose</th>
           <th>Statement of purpose</th>
           <th>IELTS bands</th>
         </tr>
@@ -45,6 +46,7 @@ function UserTable() {
             <td>{user.matric}</td>
             <td>{user.inter}</td>
             <td>{user.bachelors}</td>
+            <td>{user.visaPurpose}</td>
             <td>{user.statementOfPurpose}</td>
             <td>{user.ieltsBands}</td>
           </tr>
